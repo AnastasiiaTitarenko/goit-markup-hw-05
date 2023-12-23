@@ -621,7 +621,7 @@ section {
 .modal-form {
   display: flex;
   flex-direction: column;
-  height: 40px;
+
   width: 360px;
 }
 
@@ -702,7 +702,7 @@ section {
   background-color: #404bbf;
 }
 
-/* Checkbox */
+/* Modal Checkbox */
 .form-agreement {
   display: block;
   color: #8e8f99;
