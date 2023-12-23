@@ -721,17 +721,17 @@ section {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  stroke-width: 1px;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   fill: transparent;
 }
 .checkbox:checked + .form-agreement-checkbox {
-  fill: var(--OCEAN, #404bbf);
-  stroke-width: 1px;
-  stroke: var(--OCEAN, #404bbf);
   background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .form-agreement-icon {
   opacity: 0;
